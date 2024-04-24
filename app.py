@@ -4,9 +4,14 @@ import pandas as pd
 import streamlit as st
 from dotenv import load_dotenv
 from utils.b2 import B2
+import matplotlib.pyplot as plt
+import seaborn as sns
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from model import train_model, predict_sentiment, get_sentiment_label
+from model import train_model, predict_sentiment, get_sentiment_label, plot_sentiment_pie_chart
+
+
+
 
 # Load environment variables
 load_dotenv()
@@ -53,11 +58,18 @@ if __name__ == '__main__':
         if user_input:
             try:
                 cleaned_text = clean_text(user_input)
+                #print(cleaned_text)
                 model, vectorizer = train_model(df_apple)
+                #print(vectorizer.transform([cleaned_text]))
                 predicted_sentiment = predict_sentiment(cleaned_text, model, vectorizer)
-                st.write(f"The sentiment is **{predicted_sentiment.capitalize()}**.")
+                st.write(f"The sentiment is **{predicted_sentiment.capitalize()}**.")  
+                                  
             except (ValueError, AttributeError, ImportError) as e:
                 st.error(f"Error occurred during sentiment analysis: {e}")
                 st.write("Please check the implementation of the sentiment analysis model.")
         else:
             st.warning("Please enter some text to analyze.")
+    st.subheader("Sentiment Analysis Distribution")
+    if st.button("Plot Sentiment Pie Chart"):
+        fig = plot_sentiment_pie_chart()
+        st.pyplot(fig)
