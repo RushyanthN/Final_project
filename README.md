@@ -11,11 +11,11 @@ The stakeholders who would benefit from this tool include:
 
 1.3 Customers and Product Enthusiasts: Individuals interested in Apple products can use the tool to gather insights into the general sentiment surrounding a particular product, helping them make informed purchasing decisions.
 
-2 Data Description
+## 2 Data Description
 
 The project utilized a dataset containing text data related to Apple products, along with corresponding sentiment labels. The dataset was cleaned and preprocessed to remove irrelevant information, such as URLs, mentions, and special characters. The cleaned text data was then used to train a machine learning model for sentiment analysis.
 
-3 Algorithm Description
+## 3 Algorithm Description
 
 The sentiment analysis algorithm employed in this project consists of the following steps:
 
@@ -27,7 +27,7 @@ The sentiment analysis algorithm employed in this project consists of the follow
 
 3.4 Sentiment Prediction: When new text input is provided, it undergoes the same preprocessing and feature extraction steps. The trained model then classifies the input text into one of the three sentiment categories based on the learned patterns.
 
-4 Tools Used
+## 4 Tools Used
 
 The following tools and libraries were utilized in this project:
 
@@ -43,7 +43,7 @@ The following tools and libraries were utilized in this project:
 
 4.6 Backblaze B2 Cloud Storage: A cloud storage service used for storing and retrieving the dataset.
 
-5 Ethical Concerns
+## 5 Ethical Concerns
 While sentiment analysis tools can provide valuable insights, there are several ethical concerns that need to be considered:
 
 5.1 Data Privacy: The text data used for training the model may contain personal or sensitive information. Proper measures should be taken to ensure data anonymization and compliance with relevant data privacy regulations.
