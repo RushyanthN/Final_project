@@ -5,7 +5,6 @@ import streamlit as st
 from dotenv import load_dotenv
 from utils.b2 import B2
 import matplotlib.pyplot as plt
-import seaborn as sns
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from model import train_model, predict_sentiment, get_sentiment_label, plot_sentiment_pie_chart
