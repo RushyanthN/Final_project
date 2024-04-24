@@ -45,7 +45,7 @@ def get_data():
 if __name__ == '__main__':
     # Streamlit app initialization
     st.title("Apple Product Sentiment Analysis")
-
+    st.write("The sentiment analysis tool offers Apple, market researchers, and customers insights into public sentiment regarding Apple products, aiding in decision-making and purchasing choices.")
     # Get the data
     df_apple = get_data()
 
