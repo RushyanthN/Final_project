@@ -7,7 +7,7 @@ The stakeholders who would benefit from this tool include:
 
 1.1 Apple Inc.: The company can utilize this tool to monitor and analyze customer feedback, reviews, and opinions about their products, allowing them to make informed decisions regarding product development, marketing strategies, and customer support.
 
-1.2 Market Researchers and Analysts: Researchers and analysts can use the sentiment analysis tool to gauge public sentiment towards Apple products, which can aid in market trend analysis, competitor analysis, and consumer behavior studies.
+- Market Researchers and Analysts: Researchers and analysts can use the sentiment analysis tool to gauge public sentiment towards Apple products, which can aid in market trend analysis, competitor analysis, and consumer behavior studies.
 
 1.3 Customers and Product Enthusiasts: Individuals interested in Apple products can use the tool to gather insights into the general sentiment surrounding a particular product, helping them make informed purchasing decisions.
 
