@@ -1,6 +1,6 @@
 # Apple Product Sentiment Analysis
 
-1 Abstract or Overview
+## 1 Abstract or Overview
 
 The Apple Product Sentiment Analysis project aims to develop a web application that can analyze and classify the sentiment expressed in text related to Apple products. The primary purpose of this project is to provide a tool that can help companies, researchers, or individuals gain insights into public opinions and sentiments towards Apple products. By leveraging natural language processing and machine learning techniques, the application can classify text input as either positive, negative, or neutral sentiment.
 The stakeholders who would benefit from this tool include:
