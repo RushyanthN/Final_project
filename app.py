@@ -73,4 +73,6 @@ if __name__ == '__main__':
         fig = plot_sentiment_pie_chart()
         st.pyplot(fig)
 
-    st.write("The sentiment analysis tool offers Apple, market researchers, and customers insights into public sentiment regarding Apple products, aiding in decision-making and purchasing choices.")
+    st.write("1.Apple Inc. can use the tool to monitor customer feedback, informing decisions on product development, marketing, and support.")
+    st.write("2.Market researchers can gauge public sentiment for trend analysis, competitor research, and consumer behavior studies.")
+    st.write("3.Customers interested in Apple products can gather insights for informed purchasing decisions.")
