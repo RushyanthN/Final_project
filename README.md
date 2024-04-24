@@ -31,24 +31,24 @@ The sentiment analysis algorithm employed in this project consists of the follow
 
 The following tools and libraries were utilized in this project:
 
-**4.1 Python:** The primary programming language used for developing the web application and implementing the sentiment analysis algorithm.
+4.1 Python: The primary programming language used for developing the web application and implementing the sentiment analysis algorithm.
 
-**4.2 Streamlit:** A Python library used for building interactive web applications with minimal coding effort.
+4.2 Streamlit: A Python library used for building interactive web applications with minimal coding effort.
 
-**4.3 Pandas:** A data manipulation and analysis library used for handling and preprocessing the text data.
+4.3 Pandas: A data manipulation and analysis library used for handling and preprocessing the text data.
 
-**4.4 Scikit-learn:** A machine learning library providing implementations of various algorithms, including the Multinomial Naive Bayes classifier used in this project.
+4.4 Scikit-learn: A machine learning library providing implementations of various algorithms, including the Multinomial Naive Bayes classifier used in this project.
 
-**4.5 VADER Sentiment Intensity Analyzer:** A rule-based sentiment analysis tool used for text preprocessing and cleaning.
+4.5 VADER Sentiment Intensity Analyzer: A rule-based sentiment analysis tool used for text preprocessing and cleaning.
 
-**4.6 Backblaze B2 Cloud Storage:** A cloud storage service used for storing and retrieving the dataset.
+4.6 Backblaze B2 Cloud Storage: A cloud storage service used for storing and retrieving the dataset.
 
-**5 Ethical Concerns**
+5 Ethical Concerns
 While sentiment analysis tools can provide valuable insights, there are several ethical concerns that need to be considered:
 
 **5.1 Data Privacy:** The text data used for training the model may contain personal or sensitive information. Proper measures should be taken to ensure data anonymization and compliance with relevant data privacy regulations.
 
-**5.2 Bias and Fairness:** The sentiment analysis model may exhibit biases based on the training data or the algorithms used. It is essential to ensure that the model does not perpetuate or amplify existing societal biases, and steps should be taken to mitigate such issues.
+5.2 Bias and Fairness: The sentiment analysis model may exhibit biases based on the training data or the algorithms used. It is essential to ensure that the model does not perpetuate or amplify existing societal biases, and steps should be taken to mitigate such issues.
 
 **5.3 Transparency and Interpretability:** Users should be made aware of the limitations and potential biases of the sentiment analysis tool. Clear explanations should be provided regarding the model's decision-making process and the factors influencing the sentiment classification.
 
